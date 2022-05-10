@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 public class Samsung
 {
 	@Autowired
-	@Qualifier("mediaT ek")
+	@Qualifier("mediaTek")
 	MobileProcessor cpu;
 	
   public MobileProcessor getCpu() {
